@@ -1,0 +1,61 @@
+.card {
+  width: 230px;
+  background-color: white;
+  padding: 16px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 16px;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+
+.hover-btn {
+  background-color: #007bff; /* Primary blue color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 5px;
+}
+
+.hover-btn:hover {
+  background-color: #0056b3; /* Darker blue */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.hover-btn:active {
+  background-color: #003f7f; /* Even darker blue for active state */
+  transform: scale(1); /* Reset scale */
+}
+
+.hover-btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.delete-btn {
+  background-color: #28a745; /* Green color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #218838; /* Darker green */
+}
+
+.delete-btn:active {
+  background-color: #1e7e34; /* Even darker green for active state */
+}
+
+.delete-btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
